@@ -11,3 +11,12 @@ export interface statType {
     name: string,
     value: string
 }
+
+export interface joinReqType {
+    emailId: string
+}
+
+export interface joinResType {
+    success: boolean,
+    errorMessage: null | string
+}
